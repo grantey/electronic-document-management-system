@@ -1,0 +1,445 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+#page
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	border: 1px solid #C9E0ED;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid #C9E0ED;
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #6399cd;
+	background-color:#EFF4FA;
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+a.view
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.view-alert
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #eb051b;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,.2);
+}
+
+.view div
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #aaaaaa;
+    font-size: 12px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,.2);
+}
+
+.view div:hover
+{
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,.5);
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #ffffff;
+}
+
+div.div-border
+{
+    border: 1px solid #373737;
+    border-radius: 3px;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+.btn-box {
+    margin: 25px 0 25px 0;
+    text-align: center;
+}
+
+.btn {
+    background: #85c3ed;
+    background-image: -webkit-linear-gradient(top, #85c3ed, #369bd9);
+    background-image: -moz-linear-gradient(top, #85c3ed, #369bd9);
+    background-image: -ms-linear-gradient(top, #85c3ed, #369bd9);
+    background-image: -o-linear-gradient(top, #85c3ed, #369bd9);
+    background-image: linear-gradient(to bottom, #85c3ed, #369bd9);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 6px 25px 6px 25px;
+    text-decoration: none;
+    width: 180px;
+}
+
+.btn-link {
+    display: inline-block;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+    margin-right: 10px;
+    width: 130px;
+}
+
+.btn-link:active {
+    box-shadow: -2px -2px 1px rgba(0,0,0,0.5);
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:focus {
+    color: #fff;
+}
+
+.user-button {
+
+}
+
+.right-button {
+
+}
+
+#scrollup {
+    position: fixed; /* фиксированная позиция */
+    opacity: 0.7; /* прозрачность */
+    padding: 9px 5px 5px; /* отступы */
+    background: #B7D6E7;
+    border-radius: 5px; /* скругление углов */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    right: 10px; /* отступ слева */
+    bottom: 10px; /* отступ снизу */
+    display: none; /* спрятать блок */
+    cursor: pointer;
+}
+
+.grid-alert
+{
+    /*background-color: #f45d6c;*/
+}
+
+
+
+/* Базовый контейнер табов */
+.tabs {
+    padding: 0px;
+    margin: 0 auto;
+}
+/* стили секций с содержанием */
+section {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #373737;
+    color: #000;
+    border-radius: 3px;
+}
+
+.section-header {
+    font-size: 1.5em;
+    margin: 0 0 -20px 30px;
+}
+
+.tabs > input {
+    display: none;
+}
+/* стили вкладок (табов) */
+.tabs > label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #000;
+    background: #f1f1f1;
+    border-radius: 3px 3px 0 0;
+    width: 150px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* изменения стиля заголовков вкладок при наведении */
+.tabs > label:hover {
+    color: #888;
+    cursor: pointer;
+}
+/* стили для активной вкладки */
+.tabs > input:checked + label {
+    color: #000;
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+}
+/* активация секций с помощью переключателя :checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+    display: block;
+}
+
+.input-row {
+    margin: 10px 20px 30px 15px;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.input-row label {
+    float: left;
+    vertical-align: middle;
+}
+
+.input-row input[type="text"] {
+    float: left;
+    vert-align: middle;
+    margin-left: 15px;
+    width: 80px;
+}
+
+.headline {
+    margin: 20px 0 20px 0;
+}
+
+.headline h1, .headline p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.headline p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.checkbox-row label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.checkbox-row input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0 0 0 10px;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
